@@ -130,9 +130,8 @@
   }
   
   .modal-item input {
-	transition:
-	border var(--animation-duration) var(--animation-function),
-	 var(--animation-duration) var(--animation-function);
+	transition: border-color var(--animation-duration) var(--animation-function);
+
   
 	width: 100%;
 	min-height: 40px;
@@ -188,7 +187,8 @@
   }
   
   textarea {
-	transition: border var(--animation-duration) var(--animation-function);
+	transition: border-color var(--animation-duration) var(--animation-function);
+
     display: block;
 	resize: none;
 	width: 100%;
