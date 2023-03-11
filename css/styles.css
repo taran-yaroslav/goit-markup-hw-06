@@ -97,11 +97,12 @@
   }
   /* Modal input */
 
-  .subscribe-form{
+  form{
 	display: flex;
 	flex-direction: column;
   }
   
+
   .modal-topic {
 	margin: 0 0 16px;
 	font-weight: 500;
@@ -158,8 +159,10 @@
   .modal-item input:focus + .person-input>.input-icon {
 	fill: var(--accent-color);
   }
-  .nput-icon {
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  .input-icon {
+		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	  
+	
   }
   
   .person-input {
